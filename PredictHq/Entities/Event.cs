@@ -4,7 +4,7 @@ using System.Text;
 
 namespace PredictHq.Entities
 {
-    class Event
+    public class Event
     {
         public int relevance { get; set; }
         public string id { get; set; }
