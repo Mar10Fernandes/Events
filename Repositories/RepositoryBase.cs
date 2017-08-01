@@ -17,9 +17,6 @@ namespace Repositories
             this.context = context;
             this.dbSet = context.Set<T>();
         }
-
-        #region IRepository<T> Members
-
         public void Add(T entity)
         {
             dbSet.Add(entity);
@@ -87,7 +84,5 @@ namespace Repositories
             GC.SuppressFinalize(this);
         }
         
-
-        #endregion
     }
 }

@@ -8,8 +8,6 @@ namespace DataEntities
 {
     public class EventType
     {
-        [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int ID { get; set; }
         public string EventCategory { get; set; }
     }
