@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DataEntities.Sources
+namespace PredictHq.Entities
 {
-    public class PredictHQDto
+    class Event
     {
         public int relevance { get; set; }
         public string id { get; set; }
@@ -23,14 +23,11 @@ namespace DataEntities.Sources
         public string country { get; set; }
         public string state { get; set; }
         public Venues entities { get; set; }
-       
-
-
     }
 
     public class Venues
     {
-     public string[] Name { get; set; }
+        public string[] Name { get; set; }
 
     }
 }
