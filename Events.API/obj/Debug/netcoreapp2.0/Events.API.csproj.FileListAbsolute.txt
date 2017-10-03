@@ -1,0 +1,13 @@
+C:\Users\FindMore\Source\Repos\EventRepo\Events.API\bin\Debug\netcoreapp2.0\x86\e_sqlite3.dll
+C:\Users\FindMore\Source\Repos\EventRepo\Events.API\bin\Debug\netcoreapp2.0\x64\e_sqlite3.dll
+C:\Users\FindMore\Source\Repos\EventRepo\Events.API\bin\Debug\netcoreapp2.0\Events.API.deps.json
+C:\Users\FindMore\Source\Repos\EventRepo\Events.API\bin\Debug\netcoreapp2.0\Events.API.runtimeconfig.json
+C:\Users\FindMore\Source\Repos\EventRepo\Events.API\bin\Debug\netcoreapp2.0\Events.API.runtimeconfig.dev.json
+C:\Users\FindMore\Source\Repos\EventRepo\Events.API\bin\Debug\netcoreapp2.0\Events.API.dll
+C:\Users\FindMore\Source\Repos\EventRepo\Events.API\bin\Debug\netcoreapp2.0\Events.API.pdb
+C:\Users\FindMore\Source\Repos\EventRepo\Events.API\obj\Debug\netcoreapp2.0\Events.API.csproj.CoreCompileInputs.cache
+C:\Users\FindMore\Source\Repos\EventRepo\Events.API\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\FindMore\Source\Repos\EventRepo\Events.API\obj\Debug\netcoreapp2.0\Events.API.AssemblyInfoInputs.cache
+C:\Users\FindMore\Source\Repos\EventRepo\Events.API\obj\Debug\netcoreapp2.0\Events.API.AssemblyInfo.cs
+C:\Users\FindMore\Source\Repos\EventRepo\Events.API\obj\Debug\netcoreapp2.0\Events.API.dll
+C:\Users\FindMore\Source\Repos\EventRepo\Events.API\obj\Debug\netcoreapp2.0\Events.API.pdb

@@ -1,0 +1,15 @@
+networks:
+  default:
+    external:
+      name: nat
+services:
+  identity.api:
+    build:
+      context: C:\Users\FindMore\Source\Repos\EventRepo\Identity.API
+      dockerfile: Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: identity.api
+    ports:
+    - 80/tcp
+version: '3.0'

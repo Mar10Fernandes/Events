@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.3
+VisualStudioVersion = 15.0.26923.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Events", "Events\Events.csproj", "{3E0E0AB5-5B7E-4394-9E09-9D6EC7703D89}"
 EndProject
@@ -13,17 +13,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MobileApplications", "Mobil
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Events", "Events", "{8D0FE7E8-653E-4BA8-B4C6-C4D453818B40}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Events.API", "Events.API\Events.API.csproj", "{5067B25E-3935-4B8A-8B11-EB55E2446371}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Events.API", "Events.API\Events.API.csproj", "{5067B25E-3935-4B8A-8B11-EB55E2446371}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Identity", "Identity", "{9318A51D-F78C-4F7B-8272-240DFEACCBEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identity.API", "Identity.API\Identity.API.csproj", "{775B2BF7-8225-4341-9532-AF1BACC37FA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Identity.API", "Identity.API\Identity.API.csproj", "{775B2BF7-8225-4341-9532-AF1BACC37FA6}"
 EndProject
-Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{FF3017E0-28E6-4875-AE7F-DE374ED85A2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Events.Domain", "Events.Domain\Events.Domain.csproj", "{10B57B00-F5C3-4BEC-82F8-EB8934D228B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Events.Domain", "Events.Domain\Events.Domain.csproj", "{10B57B00-F5C3-4BEC-82F8-EB8934D228B3}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventsRepository", "EventsRepository\EventsRepository.csproj", "{A1DE556D-ED23-4ECE-8454-27222F4BC13C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventsRepository", "EventsRepository\EventsRepository.csproj", "{A1DE556D-ED23-4ECE-8454-27222F4BC13C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,10 +41,6 @@ Global
 		{775B2BF7-8225-4341-9532-AF1BACC37FA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{775B2BF7-8225-4341-9532-AF1BACC37FA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{775B2BF7-8225-4341-9532-AF1BACC37FA6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FF3017E0-28E6-4875-AE7F-DE374ED85A2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FF3017E0-28E6-4875-AE7F-DE374ED85A2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FF3017E0-28E6-4875-AE7F-DE374ED85A2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FF3017E0-28E6-4875-AE7F-DE374ED85A2C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{10B57B00-F5C3-4BEC-82F8-EB8934D228B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{10B57B00-F5C3-4BEC-82F8-EB8934D228B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10B57B00-F5C3-4BEC-82F8-EB8934D228B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
