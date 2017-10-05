@@ -1,14 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using System.Configuration;
+﻿using Events.Domain;
+using Events.Domain.Interfaces;
+using Events.Repository.MongoDB;
+using Events.Repository.MongoDB.Base.Connection;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
 using System.IO;
 
 namespace Events.API
@@ -33,7 +30,20 @@ namespace Events.API
         {
             services.AddMvc();
 
-            services.AddSingleton(_ => Configuration);
+            services.AddSingleton<IConfiguration>(Configuration);
+
+            // Add Repository MongoDB
+            // Config
+            services.AddScoped<IConfig, Config>();
+            // Connect
+            services.AddScoped<IConnect, Connect>();
+
+            // Repositories
+            // TODO: The injection should be based on an interface to respect standards instead of abstract class
+            services.AddScoped<EventsRepositoryAbst, EventsRepository>();
+
+            // Domains
+            services.AddScoped<IEventsDomain, EventsDomain>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

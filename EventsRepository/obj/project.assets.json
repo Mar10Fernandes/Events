@@ -1450,6 +1450,30 @@
         "runtime": {
           "lib/netstandard1.3/System.Threading.ThreadPool.dll": {}
         }
+      },
+      "Events.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Events.Infrastructure": "1.0.0",
+          "MongoDB.Bson": "2.4.4"
+        },
+        "compile": {
+          "bin/placeholder/Events.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Events.Entities.dll": {}
+        }
+      },
+      "Events.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Events.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Events.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -5023,10 +5047,22 @@
         "system.threading.threadpool.4.0.10.nupkg.sha512",
         "system.threading.threadpool.nuspec"
       ]
+    },
+    "Events.Entities/1.0.0": {
+      "type": "project",
+      "path": "../Events.Entities/Events.Entities.csproj",
+      "msbuildProject": "../Events.Entities/Events.Entities.csproj"
+    },
+    "Events.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../Events.Infrastructure/Events.Infrastructure.csproj",
+      "msbuildProject": "../Events.Infrastructure/Events.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+      "Events.Entities >= 1.0.0",
+      "Events.Infrastructure >= 1.0.0",
       "Microsoft.Extensions.Options.ConfigurationExtensions >= 2.0.0",
       "Microsoft.NETCore.App >= 2.0.0",
       "MongoDB.Driver >= 2.4.4",
@@ -5043,9 +5079,9 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\FindMore\\Source\\Repos\\EventRepo\\EventsRepository\\EventsRepository.csproj",
-      "projectName": "EventsRepository",
-      "projectPath": "C:\\Users\\FindMore\\Source\\Repos\\EventRepo\\EventsRepository\\EventsRepository.csproj",
+      "projectUniqueName": "C:\\Users\\FindMore\\Source\\Repos\\EventRepo\\EventsRepository\\Events.Repository.csproj",
+      "projectName": "Events.Repository",
+      "projectPath": "C:\\Users\\FindMore\\Source\\Repos\\EventRepo\\EventsRepository\\Events.Repository.csproj",
       "packagesPath": "C:\\Users\\FindMore\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\FindMore\\Source\\Repos\\EventRepo\\EventsRepository\\obj\\",
       "projectStyle": "PackageReference",
@@ -5066,7 +5102,14 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\FindMore\\Source\\Repos\\EventRepo\\Events.Infrastructure\\Events.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\FindMore\\Source\\Repos\\EventRepo\\Events.Infrastructure\\Events.Infrastructure.csproj"
+            },
+            "C:\\Users\\FindMore\\Source\\Repos\\EventRepo\\Events.Entities\\Events.Entities.csproj": {
+              "projectPath": "C:\\Users\\FindMore\\Source\\Repos\\EventRepo\\Events.Entities\\Events.Entities.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

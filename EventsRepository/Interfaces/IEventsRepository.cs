@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Events.Domain.Interfaces
+namespace Events.Repository
 {
-    interface IEvent
+    interface IEventsRepository
     {
     }
 }

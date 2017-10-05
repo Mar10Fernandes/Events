@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Events.Domain.Entities
+namespace Events.Domain.Interfaces
 {
-    class Event
+    public interface IEventsDomain
     {
     }
 }

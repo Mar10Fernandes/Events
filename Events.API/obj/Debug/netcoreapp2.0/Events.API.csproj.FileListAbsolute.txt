@@ -11,3 +11,12 @@ C:\Users\FindMore\Source\Repos\EventRepo\Events.API\obj\Debug\netcoreapp2.0\Even
 C:\Users\FindMore\Source\Repos\EventRepo\Events.API\obj\Debug\netcoreapp2.0\Events.API.AssemblyInfo.cs
 C:\Users\FindMore\Source\Repos\EventRepo\Events.API\obj\Debug\netcoreapp2.0\Events.API.dll
 C:\Users\FindMore\Source\Repos\EventRepo\Events.API\obj\Debug\netcoreapp2.0\Events.API.pdb
+C:\Users\FindMore\Source\Repos\EventRepo\Events.API\obj\Debug\netcoreapp2.0\Events.API.csprojResolveAssemblyReference.cache
+C:\Users\FindMore\Source\Repos\EventRepo\Events.API\bin\Debug\netcoreapp2.0\Events.Domain.dll
+C:\Users\FindMore\Source\Repos\EventRepo\Events.API\bin\Debug\netcoreapp2.0\Events.Repository.dll
+C:\Users\FindMore\Source\Repos\EventRepo\Events.API\bin\Debug\netcoreapp2.0\Events.Domain.pdb
+C:\Users\FindMore\Source\Repos\EventRepo\Events.API\bin\Debug\netcoreapp2.0\Events.Repository.pdb
+C:\Users\FindMore\Source\Repos\EventRepo\Events.API\bin\Debug\netcoreapp2.0\Events.Entities.dll
+C:\Users\FindMore\Source\Repos\EventRepo\Events.API\bin\Debug\netcoreapp2.0\Events.Infrastructure.dll
+C:\Users\FindMore\Source\Repos\EventRepo\Events.API\bin\Debug\netcoreapp2.0\Events.Entities.pdb
+C:\Users\FindMore\Source\Repos\EventRepo\Events.API\bin\Debug\netcoreapp2.0\Events.Infrastructure.pdb

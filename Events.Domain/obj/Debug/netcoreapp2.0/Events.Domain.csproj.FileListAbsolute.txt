@@ -6,3 +6,10 @@ C:\Users\FindMore\Source\Repos\EventRepo\Events.Domain\obj\Debug\netcoreapp2.0\E
 C:\Users\FindMore\Source\Repos\EventRepo\Events.Domain\obj\Debug\netcoreapp2.0\Events.Domain.AssemblyInfo.cs
 C:\Users\FindMore\Source\Repos\EventRepo\Events.Domain\obj\Debug\netcoreapp2.0\Events.Domain.dll
 C:\Users\FindMore\Source\Repos\EventRepo\Events.Domain\obj\Debug\netcoreapp2.0\Events.Domain.pdb
+C:\Users\FindMore\Source\Repos\EventRepo\Events.Domain\bin\Debug\netcoreapp2.0\Events.Repository.dll
+C:\Users\FindMore\Source\Repos\EventRepo\Events.Domain\bin\Debug\netcoreapp2.0\Events.Repository.pdb
+C:\Users\FindMore\Source\Repos\EventRepo\Events.Domain\obj\Debug\netcoreapp2.0\Events.Domain.csprojResolveAssemblyReference.cache
+C:\Users\FindMore\Source\Repos\EventRepo\Events.Domain\bin\Debug\netcoreapp2.0\Events.Entities.dll
+C:\Users\FindMore\Source\Repos\EventRepo\Events.Domain\bin\Debug\netcoreapp2.0\Events.Infrastructure.dll
+C:\Users\FindMore\Source\Repos\EventRepo\Events.Domain\bin\Debug\netcoreapp2.0\Events.Entities.pdb
+C:\Users\FindMore\Source\Repos\EventRepo\Events.Domain\bin\Debug\netcoreapp2.0\Events.Infrastructure.pdb
