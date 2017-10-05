@@ -7,7 +7,7 @@ using System.Text;
 
 namespace Events.Domain.Entities
 {
-    [MongoCollectionName("peoples")]
+    [MongoCollectionName("Events")]
     public sealed class Event
     {
         [BsonRequired()]
