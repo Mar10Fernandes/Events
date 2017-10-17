@@ -1,8 +1,0 @@
-C:\Users\FindMore\Source\Repos\EventRepo\EventsRepository\bin\Debug\netcoreapp2.0\EventsRepository.deps.json
-C:\Users\FindMore\Source\Repos\EventRepo\EventsRepository\bin\Debug\netcoreapp2.0\EventsRepository.dll
-C:\Users\FindMore\Source\Repos\EventRepo\EventsRepository\bin\Debug\netcoreapp2.0\EventsRepository.pdb
-C:\Users\FindMore\Source\Repos\EventRepo\EventsRepository\obj\Debug\netcoreapp2.0\EventsRepository.csproj.CoreCompileInputs.cache
-C:\Users\FindMore\Source\Repos\EventRepo\EventsRepository\obj\Debug\netcoreapp2.0\EventsRepository.AssemblyInfoInputs.cache
-C:\Users\FindMore\Source\Repos\EventRepo\EventsRepository\obj\Debug\netcoreapp2.0\EventsRepository.AssemblyInfo.cs
-C:\Users\FindMore\Source\Repos\EventRepo\EventsRepository\obj\Debug\netcoreapp2.0\EventsRepository.dll
-C:\Users\FindMore\Source\Repos\EventRepo\EventsRepository\obj\Debug\netcoreapp2.0\EventsRepository.pdb
