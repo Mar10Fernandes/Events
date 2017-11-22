@@ -2,18 +2,27 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Events.Domain.Entities;
+using Events.Domain.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Events.API.Controllers
 {
     [Route("api/[controller]")]
-    public class ValuesController : Controller
+    public class EventsController : Controller
     {
+        private IEventsDomain _eventsDomain;
+
+        EventsController(IEventsDomain eventsDomain)
+        {
+            this._eventsDomain = eventsDomain;
+        }
+
         // GET api/values
         [HttpGet]
-        public IEnumerable<string> Get()
+        public IEnumerable<Event> Get()
         {
-            return new string[] { "value1", "value2" };
+            return _eventsDomain.FindAll();
         }
 
         // GET api/values/5

@@ -1,19 +1,26 @@
 ﻿using Events.Domain.Entities;
 using Events.Domain.Interfaces;
 using Events.Repository.MongoDB;
+using Events.Repository.MongoDB.Base;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Linq;
 
 namespace Events.Domain
 {
     public class EventsDomain : IEventsDomain
     {
-        public IList<Event> FindEvents(EventsRepositoryAbst eventsRepository)
-        {
-            IList<Event> events = eventsRepository.List(x => x.Name == "Test");
+        private EventsRepositoryAbst _eventsRepository;
 
-            return events;
+        public EventsDomain(EventsRepositoryAbst eventsRepository)
+        {
+            this._eventsRepository = eventsRepository;
+        }
+
+        public IEnumerable<Event> FindAll()
+        {
+            return _eventsRepository.All();
         }
     }
 }

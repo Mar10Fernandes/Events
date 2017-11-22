@@ -4,6 +4,7 @@ using Events.Repository.MongoDB.Base;
 using Microsoft.Extensions.Configuration;
 using MongoDB.Driver;
 using System;
+using System.Collections.Generic;
 
 namespace Events.Repository.MongoDB
 {
@@ -18,6 +19,11 @@ namespace Events.Repository.MongoDB
     {
         public EventsRepository(IConnect connect) : base(connect)
         {
+        }
+
+        public IEnumerable<Event> FindAll()
+        {
+            return this.All();
         }
     }
 }
